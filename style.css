@@ -1,0 +1,23 @@
+/* header */
+
+.logo {
+    width: 115px;
+    height: 65px;
+}
+.options {
+    background-color: #0020F4;
+}
+.line{
+    display: inline-block;
+    margin-left: 2px;
+    padding: 10px;
+}
+.nav-line {
+    color: #FFFFFF;
+    height: 18px;
+}
+.contact {
+    color: #171717;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
