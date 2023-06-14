@@ -1,5 +1,6 @@
 /* header */
 
+
 .logo {
     width: 115px;
     height: 65px;
@@ -25,14 +26,27 @@
 
 /* section */   
 
+
 .construction {
     margin: 0px auto;
     display: block;
+    text-align: center;
+}
+.construction-text {
+ display: inline-block;
 }
 .new-building {
     width: 219px;
     height: 219px;
     object-fit: cover;
+    display: inline-block;
+}
+.div-img {
+    text-align: center;
+}
+.text {
+    margin-left: 300px;
+    margin-right: 300px;
 }
 .add-info {
     background-color: #0A22F4;
@@ -41,5 +55,51 @@
     border-radius: 15px;
 }
 #add-info {
-    text-align: center;
+    /* text-align: center; */
+}
+
+
+/* footer */
+
+
+.footer {
+    background-color: #0A22F4;
+}
+.footer-p {
+    color: #FFFFFF;
+    padding-left: 50px;
+    width: 300px;
+}
+.footer-contact {
+    color: #FFFFFF;
+    padding: 50px;
+}
+.phone-number {
+    color: #FFFFFF;
+    padding-left: 50px;
+}
+.gmail {
+    color: #FFFFFF;
+    padding-left: 50px;
+}
+.call-message {
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 22px;
+    margin-left: 50px;
+}
+.map {
+    padding: 50px;
+    margin-left: 30px;
+}
+.reg-def {
+    color: #FFFFFF;
+ 
+    padding-left: 50px;
+}
+.made {
+    color: #FFFFFF;
+    padding: 50px;
+    padding-right: 100px;
+    text-align: right;
 }
